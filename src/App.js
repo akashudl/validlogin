@@ -25,7 +25,7 @@ class App extends Component
     var c=this.state.username;
     var d="@Qwikcilver.com";
     var s=c.substring(c.length-15,c.length);
-    if(s===d)
+    if(d.equalsIgnoreCase(s))
     alert("Sucessfull login");
     else 
     alert("Username or passWord not matching");
