@@ -24,11 +24,12 @@ class App extends Component
   { 
     var c=this.state.username;
     var d="@Qwikcilver.com";
+    var g="@qwikcilver.com";
     var s=c.substring(c.length-15,c.length);
-    if(d.equalsIgnoreCase(s))
+    if(g===s||d==s)
     alert("Sucessfull login");
     else 
-    alert("Username or passWord not matching");
+    alert("Username or password not matching");
     
   }
    render()
