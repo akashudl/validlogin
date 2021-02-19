@@ -41,7 +41,7 @@ class App extends Component
             <input type="text" onChange={this.handleusername}/><br>
             </br>
             <p>Enter the password</p>
-            <input type="password" onChange={this.takeinput}/> <br>
+            <input type="text" onChange={this.takeinput}/> <br>
             </br>
             <button onClick={this.check} className="button">SUBMIT</button>
          </div>
